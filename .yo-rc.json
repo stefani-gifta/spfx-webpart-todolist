@@ -1,0 +1,19 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "useGulp": false,
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "22.18.0",
+    "sdksVersions": {},
+    "version": "1.23.2",
+    "libraryName": "spfx-webpart-todolist",
+    "libraryId": "ab7f3d01-8a67-4ea0-8d49-7838cb60c911",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "spfx-webpart-todolist",
+    "solutionShortDescription": "spfx-webpart-todolist description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
