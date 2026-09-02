@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
   "version": "2.0",
   "bundles": {
-    "to-do-list-web-part": {
+    "banner": {
       "components": [
         {
-          "entrypoint": "./lib/webparts/toDoList/ToDoListWebPart.js",
-          "manifest": "./src/webparts/toDoList/ToDoListWebPart.manifest.json"
+          "entrypoint": "./lib/webparts/banner/BannerWebPart.js",
+          "manifest": "./src/webparts/banner/BannerWebPart.manifest.json"
         }
       ]
     }

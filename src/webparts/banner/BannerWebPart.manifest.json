@@ -1,0 +1,23 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "6dec88dd-92a4-4772-87f3-d4668e1df198",
+  "alias": "BannerWebPart",
+  "componentType": "WebPart",
+
+  "version": "*",
+  "manifestVersion": 2,
+
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Other" },
+    "title": { "default": "Greeting Banner" },
+    "description": { "default": "A personalised welcome banner with a time-of-day greeting, date, and quick links to Email, Calendar and OneDrive." },
+    "officeFabricIconFontName": "Welcome",
+    "properties": {
+      "companyLogoAlt": "Company logo"
+    }
+  }]
+}
